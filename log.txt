@@ -1,0 +1,106 @@
+Multiplicação de Matrizes
+BLOCK_SIZE = 50
+
+GeForce GTX TITAN X
+
+A[100][100] * B[100][100]
+GPU (global): 243.349ms
+GPU (shared): 0.597ms
+CPU: 6.862ms
+
+A[200][200] * B[200][200]
+GPU (global): 0.724ms
+GPU (shared): 0.705ms
+CPU: 55.437ms
+
+A[300][300] * B[300][300]
+GPU (global): 1.389ms
+GPU (shared): 1.342ms
+CPU: 198.359ms
+
+A[400][400] * B[400][400]
+GPU (global): 2.225ms
+GPU (shared): 2.071ms
+CPU: 486.525ms
+
+A[500][500] * B[500][500]
+GPU (global): 2.210ms
+GPU (shared): 2.133ms
+CPU: 1005.904ms
+
+A[600][600] * B[600][600]
+GPU (global): 2.343ms
+GPU (shared): 2.252ms
+CPU: 1648.200ms
+
+A[700][700] * B[700][700]
+GPU (global): 2.488ms
+GPU (shared): 2.428ms
+CPU: 2700.968ms
+
+A[800][800] * B[800][800]
+GPU (global): 2.889ms
+GPU (shared): 2.813ms
+CPU: 3836.212ms
+
+A[900][900] * B[900][900]
+GPU (global): 3.333ms
+GPU (shared): 3.229ms
+CPU: 5703.925ms
+
+A[1000][1000] * B[1000][1000]
+GPU (global): 3.661ms
+GPU (shared): 3.627ms
+CPU: 7662.652ms
+
+GeForce GTX 480
+
+A[100][100] * B[100][100]
+GPU (global): 45.943ms
+GPU (shared): 0.286ms
+CPU: 6.864ms
+
+A[200][200] * B[200][200]
+GPU (global): 0.427ms
+GPU (shared): 0.408ms
+CPU: 54.692ms
+
+A[300][300] * B[300][300]
+GPU (global): 0.769ms
+GPU (shared): 0.756ms
+CPU: 199.431ms
+
+A[400][400] * B[400][400]
+GPU (global): 1.198ms
+GPU (shared): 1.054ms
+CPU: 485.076ms
+
+A[500][500] * B[500][500]
+GPU (global): 1.316ms
+GPU (shared): 1.239ms
+CPU: 972.629ms
+
+A[600][600] * B[600][600]
+GPU (global): 1.550ms
+GPU (shared): 1.483ms
+CPU: 1640.185ms
+
+A[700][700] * B[700][700]
+GPU (global): 1.810ms
+GPU (shared): 1.739ms
+CPU: 2699.524ms
+
+A[800][800] * B[800][800]
+GPU (global): 2.167ms
+GPU (shared): 2.061ms
+CPU: 4088.583ms
+
+A[900][900] * B[900][900]
+GPU (global): 2.539ms
+GPU (shared): 2.439ms
+CPU: 5697.529ms
+
+A[1000][1000] * B[1000][1000]
+GPU (global): 2.914ms
+GPU (shared): 2.853ms
+CPU: 7657.253ms
